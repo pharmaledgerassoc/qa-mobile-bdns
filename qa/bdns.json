@@ -1,0 +1,56 @@
+{  "qa.epi": {
+    "anchoringServices": ["https://epi-qa.gsk.com", "https://epiqa.takeda.io/", {"url": "https://api-qa.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}, "https://qa.epi.jnj.com"],
+    "notifications": ["https://epi-qa.gsk.com", "https://epiqa.takeda.io/", {"url": "https://api-qa.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}, "https://qa.epi.jnj.com"]
+  },  "qa.epi.gsk": {
+      "brickStorages": [
+        "https://epi-qa.gsk.com"
+      ],
+      "anchoringServices": [
+        "https://epi-qa.gsk.com"
+      ],
+      "notifications": [
+        "https://epi-qa.gsk.com"
+      ]
+  },  "qa.epi.takeda": {
+      "brickStorages": [
+        "https://epiqa.takeda.io/"
+      ],
+      "anchoringServices": [
+        "https://epiqa.takeda.io/"
+      ],
+      "notifications": [
+        "https://epiqa.takeda.io/"
+      ]
+  },  "qa.epi.msd": {
+      "brickStorages": [
+        {"url": "https://api-qa.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
+      ],
+      "anchoringServices": [
+        {"url": "https://api-qa.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
+      ],
+      "notifications": [
+        {"url": "https://api-qa.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
+      ]
+  },  "qa.epi.jnj": {
+      "brickStorages": [
+        "https://qa.epi.jnj.com"
+      ],
+      "anchoringServices": [
+        "https://qa.epi.jnj.com"
+      ],
+      "notifications": [
+        "https://qa.epi.jnj.com"
+      ]
+  },  "vault": {
+    "replicas": [],
+    "brickStorages": [
+      "$ORIGIN"
+    ],
+    "anchoringServices": [
+      "$ORIGIN"
+    ],
+    "notifications": [
+      "$ORIGIN"
+    ]
+  }
+}
